@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.1rem solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.Header__left {
+  display: flex;
+}
+.Header__left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 10px;
+}
+.Header__Search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: gray;
+  background-color: #eef3f8;
+}
+.Header__Search > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+.header__right {
+  display: flex;
+}
